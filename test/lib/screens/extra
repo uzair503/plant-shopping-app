@@ -1,0 +1,73 @@
+Row(
+                  children: [
+                    
+                    Column(
+                      children: [
+                        SizedBox(height: 5,),
+                        Row(
+                          children: [
+                            SizedBox(width: 5,),
+                    Text("Price",style: TextStyle(color: Color.fromRGBO(0, 33, 64, 1),fontSize: 12.0,fontWeight: FontWeight.w300),),
+                          ],
+                        ),
+                         Row(
+                          children: [
+                            SizedBox(width: 5,),
+                    Text("\$350",style: TextStyle(color: Color.fromRGBO(0, 33, 64, 1),fontSize: 16.0,fontWeight: FontWeight.bold),),
+                          ],
+                        ),
+                                               SizedBox(height: 15,),
+                                                   Row(
+                          children: [
+                            SizedBox(width: 5,),
+                    Text("Price",style: TextStyle(color: Color.fromRGBO(0, 33, 64, 1),fontSize: 12.0,fontWeight: FontWeight.w300),),
+                          ],
+                        ),
+                         Row(
+                          children: [
+                            SizedBox(width: 5,),
+                    Text("\$350",style: TextStyle(color: Color.fromRGBO(0, 33, 64, 1),fontSize: 16.0,fontWeight: FontWeight.bold),),
+                          ],
+                        ),
+                        SizedBox(height: 15,),
+                        Row(
+                          children: [
+                            SizedBox(width: 50,),
+                             CircleAvatar(
+  radius: 30,
+  backgroundColor: Colors.white, //<-- SEE HERE
+  child: IconButton(
+    icon: Icon(
+      Icons.flight,
+      color: Colors.black,
+    ),
+    onPressed: () {},
+  ),
+),
+                            SizedBox(width: 20,),
+                             CircleAvatar(
+  radius: 30,
+  backgroundColor: Colors.white, //<-- SEE HERE
+  child: IconButton(
+    icon: Icon(
+      Icons.flight,
+      color: Colors.black,
+    ),
+    onPressed: () {},
+  ),
+),
+
+                          ],
+                        )
+                      ],
+                    ),
+                    SizedBox(width: 150,),
+                    Container(
+                      height: 150,
+                      width: 150,
+                      child: Image.asset("one.png",fit: BoxFit.cover,),
+                    )
+
+                         
+                  ],
+                )
